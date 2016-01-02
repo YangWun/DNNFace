@@ -1,0 +1,83 @@
+﻿生成启动时间为 2014/12/8 10:13:48。
+     1>项目“F:\VS Project\DNNFace\DNNFace\DNNFace.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Debug\DNNFace.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       AddCudaCompileDeps:
+       正在跳过目标“AddCudaCompileDeps”，因为所有输出文件相对于输入文件而言都是最新的。
+       AddCudaCompilePropsDeps:
+       正在跳过目标“AddCudaCompilePropsDeps”，因为所有输出文件相对于输入文件而言都是最新的。
+       CudaBuild:
+       正在跳过目标“CudaBuild”，因为所有输出文件相对于输入文件而言都是最新的。
+       ClCompile:
+         所有输出均为最新。
+         d:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\include" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt src\trainer.cpp
+         trainer.cpp
+     1>f:\vs project\dnnface\dnnface\inc\utillearn.h(63): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+     1>f:\vs project\dnnface\dnnface\inc\utillearn.h(70): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+     1>f:\vs project\dnnface\dnnface\inc\utillearn.h(71): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+     1>f:\vs project\dnnface\dnnface\inc\trainer.h(68): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>f:\vs project\dnnface\dnnface\src\trainer.cpp(816): warning C4305: “+=”: 从“double”到“float”截断
+       ManifestResourceCompile:
+         所有输出均为最新。
+       Link:
+         d:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\VS Project\DNNFace\Debug\DNNFace.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\lib\Win32" cudart.lib curand.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /NODEFAULTLIB:freeglut.lib /MANIFEST /ManifestFile:"Debug\DNNFace.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"F:\VS Project\DNNFace\Debug\DNNFace.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\VS Project\DNNFace\Debug\DNNFace.lib" /MACHINE:X86 Debug\rbm.cu.obj
+         Debug\DNNFace.exe.embed.manifest.res
+         Debug\freeglut_callbacks.obj
+         Debug\freeglut_cursor.obj
+         Debug\freeglut_display.obj
+         Debug\freeglut_ext.obj
+         Debug\freeglut_font.obj
+         Debug\freeglut_font_data.obj
+         Debug\freeglut_gamemode.obj
+         Debug\freeglut_geometry.obj
+         Debug\freeglut_glutfont_definitions.obj
+         Debug\freeglut_init.obj
+         Debug\freeglut_input_devices.obj
+         Debug\freeglut_joystick.obj
+         Debug\freeglut_main.obj
+         Debug\freeglut_menu.obj
+         Debug\freeglut_misc.obj
+         Debug\freeglut_overlay.obj
+         Debug\freeglut_spaceball.obj
+         Debug\freeglut_state.obj
+         Debug\freeglut_stroke_mono_roman.obj
+         Debug\freeglut_stroke_roman.obj
+         Debug\freeglut_structure.obj
+         Debug\freeglut_teapot.obj
+         Debug\freeglut_videoresize.obj
+         Debug\freeglut_window.obj
+         Debug\freeglut_xinput.obj
+         Debug\connection.obj
+         Debug\connection_disp.obj
+         Debug\dbn.obj
+         Debug\layer.obj
+         Debug\layer_disp.obj
+         Debug\nn.obj
+         Debug\rbm.obj
+         Debug\rbm_calc.obj
+         Debug\rbm_disp.obj
+         Debug\rbm_init.obj
+         Debug\trainer.obj
+         Debug\trainer_calc.obj
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\DNNFace.exe.embed.manifest" /manifest Debug\DNNFace.exe.intermediate.manifest
+         所有输出均为最新。
+       LinkEmbedManifest:
+         所有输出均为最新。
+         DNNFace.vcxproj -> F:\VS Project\DNNFace\Debug\DNNFace.exe
+       PostBuildEvent:
+         echo copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\bin\cudart*.dll" "F:\VS Project\DNNFace\Debug\"
+         copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\bin\cudart*.dll" "F:\VS Project\DNNFace\Debug\"
+         :VCEnd
+         copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\bin\cudart*.dll" "F:\VS Project\DNNFace\Debug\"
+         C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\bin\cudart32_65.dll
+         C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\bin\cudart64_65.dll
+         已复制         2 个文件。
+       FinalizeBuildStatus:
+         正在删除文件“Debug\DNNFace.unsuccessfulbuild”。
+         正在对“Debug\DNNFace.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“F:\VS Project\DNNFace\DNNFace\DNNFace.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:02.10

@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="SRC">
+      <UniqueIdentifier>{0699bf0b-d04e-4943-8441-c096bf89d78a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="INC">
+      <UniqueIdentifier>{dcf72e11-2a6a-4f9a-941e-24e10761a36f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CUDA">
+      <UniqueIdentifier>{6766cb7a-db4f-4c79-b3a4-f6d7068fad9d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cuPrint">
+      <UniqueIdentifier>{a8a28e65-e149-4d51-8c2a-97d68ff0bccb}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\connection.cpp">
+      <Filter>SRC</Filter>
+    </ClCompile>
+    <ClCompile Include="src\dbn.cpp">
+      <Filter>SRC</Filter>
+    </ClCompile>
+    <ClCompile Include="src\layer.cpp">
+      <Filter>SRC</Filter>
+    </ClCompile>
+    <ClCompile Include="src\nn.cpp">
+      <Filter>SRC</Filter>
+    </ClCompile>
+    <ClCompile Include="src\rbm.cpp">
+      <Filter>SRC</Filter>
+    </ClCompile>
+    <ClCompile Include="src\rbm_init.cpp">
+      <Filter>SRC</Filter>
+    </ClCompile>
+    <ClCompile Include="src\trainer.cpp">
+      <Filter>SRC</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="inc\connection.h">
+      <Filter>INC</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\dbn.h">
+      <Filter>INC</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\layer.h">
+      <Filter>INC</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\nn.h">
+      <Filter>INC</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\rbm.h">
+      <Filter>INC</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\trainer.h">
+      <Filter>INC</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\utilLearn.h">
+      <Filter>INC</Filter>
+    </ClInclude>
+    <ClInclude Include="cuPrintf.cuh">
+      <Filter>cuPrint</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CudaCompile Include="nn.cu">
+      <Filter>CUDA</Filter>
+    </CudaCompile>
+  </ItemGroup>
+</Project>
